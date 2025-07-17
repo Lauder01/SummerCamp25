@@ -54,7 +54,7 @@
         while (true)
         {
             Console.WriteLine("\nIngrese un número entre 1 y 7 para saber el día de la semana, o 0 para salir:");
-            Console.WriteLine("==============================================================================");
+            Console.WriteLine("=============================================================================");
             string? input = Console.ReadLine();
             if (string.IsNullOrWhiteSpace(input) || !int.TryParse(input, out RequestedDay))
             {
